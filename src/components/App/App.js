@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form, FormControl, Button } from "react-bootstrap";
 import { bake_cookie, read_cookie, delete_cookie } from "sfcookies";
-import Note from "./Note";
+import Note from "../Note/Note";
 
 const cookie_key = "NOTES";
 
